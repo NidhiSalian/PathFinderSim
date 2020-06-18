@@ -7,7 +7,7 @@ from gym.utils import seeding
 
 from create_scene import Scene
 
-class FooEnv(gym.Env):
+class PathFinderEnv(gym.Env):
 
     metadata = {'render.modes': ['human', 'console']}
     ACTIONS = {
@@ -19,7 +19,7 @@ class FooEnv(gym.Env):
     ACTIONS_INDEXES = {v: k for k, v in ACTIONS.items()}
 
     def __init__(self, grid_size=20, agent_start_pos=None, agent_start_dir=None, target = None):
-        super(FooEnv, self).__init__()
+        super(PathFinderEnv, self).__init__()
         # Size of the 1D-grid
         self.grid_size = grid_size
         #Starting position
