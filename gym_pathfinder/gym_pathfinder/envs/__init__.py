@@ -1,0 +1,1 @@
+from gym_pathfinder.envs.gym_pathfinder_env import PathFinderEnv
