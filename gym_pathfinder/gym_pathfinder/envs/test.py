@@ -1,17 +1,11 @@
-from foo_env import FooEnv
+from gym_pathfinder_env import PathFinderEnv
 
 #from stable_baselines.common.env_checker import check_env
 
-env = FooEnv()
-# If the environment doesn't follow the interface, an error will be thrown
+env = PathFinderEnv()
+# Uncheck line below to check if the environment follows the interface.
+# If itdoesn't follow the interface, an error will be thrown
 #check_env(env, warn=True)
-
-
-
-
-#print(env.observation_space)
-#print(env.action_space)
-#print(env.action_space.sample())
 
 episodes = 6
 n_steps = 200
