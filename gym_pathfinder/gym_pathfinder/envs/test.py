@@ -1,4 +1,4 @@
-from gym_pathfinder_env import PathFinderEnv
+from pathfinder_env import PathFinderEnv
 
 #from stable_baselines.common.env_checker import check_env
 
