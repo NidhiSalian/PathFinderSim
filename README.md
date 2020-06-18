@@ -3,4 +3,4 @@ A very simple bot simulation of a robot that avoids obstacles and wanders in ran
 
 ## Demo
 
-![a very simple test of the environment](./basicbot.gif)
+![a very simple test of the environment](./basic_bot.gif)
